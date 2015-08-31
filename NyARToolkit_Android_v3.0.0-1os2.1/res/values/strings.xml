@@ -10,5 +10,5 @@
     <!-- Details dialog "OK" button. Dismisses dialog. -->
     <string name="details_ok">OK</string>
 
-	<string name="app_name">NyARToolkit Android</string>
+	<string name="app_name">SampleAR1</string>
 </resources>

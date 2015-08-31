@@ -40,9 +40,6 @@ package jp.androidgroup.nyartoolkit;
 import java.io.InputStream;
 import java.util.ArrayList;
 
-import com.android.camera.CameraHardwareException;
-import com.android.camera.CameraHolder;
-
 import min3d.Shared;
 import min3d.animation.AnimationObject3d;
 import min3d.core.Renderer;
@@ -50,8 +47,6 @@ import min3d.core.Scene;
 import min3d.parser.IParser;
 import min3d.parser.Parser;
 import min3d.vos.Light;
-import min3d.vos.TextureVo;
-
 import android.app.Activity;
 import android.app.Dialog;
 import android.app.ProgressDialog;
@@ -59,11 +54,8 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.content.res.Resources;
-import android.graphics.Bitmap;
-import android.graphics.Matrix;
 import android.graphics.PixelFormat;
 import android.hardware.Camera;
-import android.hardware.Camera.PreviewCallback;
 import android.media.MediaPlayer;
 import android.opengl.GLSurfaceView;
 import android.os.Build;
@@ -79,9 +71,10 @@ import android.view.SurfaceView;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
-import android.view.ViewGroup.LayoutParams;
 import android.widget.FrameLayout;
-import android.widget.ImageView;
+
+import com.android.camera.CameraHardwareException;
+import com.android.camera.CameraHolder;
 
 //public class NyARToolkitAndroidActivity extends Activity implements View.OnClickListener, SurfaceHolder.Callback {
 public class NyARToolkitAndroidActivity extends Activity implements View.OnClickListener, SurfaceHolder.Callback, min3d.interfaces.ISceneController {

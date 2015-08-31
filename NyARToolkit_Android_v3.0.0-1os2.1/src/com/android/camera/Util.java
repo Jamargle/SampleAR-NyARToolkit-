@@ -16,11 +16,10 @@
 
 package com.android.camera;
 
+import jp.androidgroup.nyartoolkit.R;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
-
-import jp.androidgroup.nyartoolkit.R;
 
 /**
  * Collection of utility functions used in this package.
